@@ -8,8 +8,8 @@
 /*referd by tag - selector*/
 body{
 	background: teal;
-	background: rgb(131,58,180);
-	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background: rgb(167,249,210);
+background: linear-gradient(90deg, rgba(167,249,210,0.13068977591036413) 0%, rgba(193,109,118,1) 50%, rgba(123,246,182,1) 100%);
 }
 
 /*refered by class - selector*/
@@ -20,25 +20,28 @@ body{
 /*refered by id (unique) this will override and everything else - selector*/
 #sec-para{
 	color: blue;
-	/*border:2px solid white;*/
-	/*padding: margin*/
-
-
+	border:2px solid white;
+	padding: margin
+	margin: 50px;
+	border : 2px solid;
 }
 
-.profileImage{
-	width: 800px;
-	height: 800px;
-	align-items: center;
-}
-
+/* float property helps to display */
 section{
 	width: 50%;
 	float: left;
 	border: 3px solid white;
+	padding:20px;
+	margin:20px;
+
 }
 
 section::after{
-
+	clear:both;
 }
-
+/profileImage{
+	width: 800px;
+	height: 800px;
+	align-items: center;
+}
+/
