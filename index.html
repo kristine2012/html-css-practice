@@ -4,47 +4,49 @@
     <meta charset="UTF-8">
 	<!-- link has to attribute to show relationship and linking file with path -->
     <link rel="stylesheet" href="css/style.css"/>
-
-	<!--  -->
-	<style>
-	.header{
-		color: white;
-	}	
-	</style>
-
-    <title>title</title>
+    <title>Kristine's website</title>
   </head>
   <body>
-
   	<section>
 
-		<!-- inline style -->
-		<h1 class="header" style="color: red;font-size: 40px;" > Practice </h1>
+		<div class="Profile">
+			<!-- inline style  (any inline styling overrides anystyling done in the css file-->
+			<h1 class="header" style="color: black;font-size: 40px; border: 2px solid white;border-radius: 30px; text-align: center; font-family: Merriweather;" > Practice </h1>
 
-		<p>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </p>
+			<p>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </p>
+		</div>
 
+		<div class="Profile">
+			<!-- Second paragraph -->
+		  	<h1 class="headerSecond" id="sec-par">Second </h1>
+			<p>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only.</p>
+		</div>
+
+	</section>
+	
+	<section>
+		<div class="ImagesCentered">
+			<img class="profileImage" src="images/profile-image.jpg"  alt="profile image"/>
+		
+			<img class="profileImage" src="images/erica-image.jpg"  alt="profile image"/>
+		</div>
 	</section>
 
 	<section>
+		<div class= "exampleForSpanTagsNextToPTags">
+			<span> This will only take the necessary place.</span>
+			
+			<!-- even though you put a <span> tag before a <p> tag whatever is in the span will still not be right next to the <p> tag becuase the <p> tag acts like a block and takes up the hole section. this is why you need to put it in <div> tags to be able to style and give it measurments-->
+			<p>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </p>
+		</div>	
 
-		<!-- Second paragraph -->
-	  	<h1 class="headerSecond" id="sec-par">Second </h1>
-		<p>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </p>
+		<div class="styletheWholeSpan">
 
+			<span class="styleSmallSpan"> This will only take the necessary place.</span>
+
+			<span>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </span>
+		</div>
 	</section>	
-
-	<img class="profileImage" src="images/profile-image.jpg"  alt="profile image"/>
-
-		<img class="profileImage" src="images/profile-image.jpg"  alt="profile image"/>
-
-
-	<span> This will only take the necessary place.</span>
-
-	<p>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </p>
-
-	<span> This will only take the necessary place.</span>
-
-	<span>Lorem ipsonis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only </span>
-
+	</div>
   </body>
 </html>
